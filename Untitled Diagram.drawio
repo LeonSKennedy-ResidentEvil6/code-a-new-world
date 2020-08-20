@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-20T04:39:01.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="vmQH0Wl1KX7ZbDWrPasr" version="13.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-20T04:40:51.172Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="iihSynCyiKm3fPExERpI" version="13.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1159" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -35,6 +35,9 @@
         </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-29" value="Open the article url in a new window" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;align=center;" vertex="1" parent="iNumXWC2fUviBrnDW_yb-10">
           <mxGeometry x="473" y="20" width="147" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iNumXWC2fUviBrnDW_yb-31" value="Display options, to go &lt;br&gt;back the menu or &lt;br&gt;exit the app" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;align=center;whiteSpace=wrap;" vertex="1" parent="iNumXWC2fUviBrnDW_yb-10">
+          <mxGeometry x="640" y="10" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-11" value="Article class" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="iNumXWC2fUviBrnDW_yb-9">
           <mxGeometry x="20" y="120" width="1045" height="120" as="geometry" />
