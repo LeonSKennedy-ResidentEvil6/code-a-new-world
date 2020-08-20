@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-20T04:28:22.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="2TP5Xg96byM43yyhAtST" version="13.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-20T04:32:13.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="PVhtAYzMNDKAb7PrYx1H" version="13.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1159" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-0" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="120" width="40" height="70" as="geometry" />
+          <mxGeometry x="90" y="20" width="40" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iNumXWC2fUviBrnDW_yb-3" target="iNumXWC2fUviBrnDW_yb-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-3" value="User starts app" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="150" width="110" height="60" as="geometry" />
+          <mxGeometry x="145" y="150" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-9" value="Objects" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="270" width="1065" height="360" as="geometry">
@@ -25,10 +25,19 @@
           <mxGeometry x="20" width="1045" height="120" as="geometry" />
         </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-5" value="Display greeting" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="iNumXWC2fUviBrnDW_yb-10">
-          <mxGeometry x="30" y="10" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iNumXWC2fUviBrnDW_yb-20" value="Display menu with options" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;align=center;" vertex="1" parent="iNumXWC2fUviBrnDW_yb-10">
+          <mxGeometry x="170" y="10" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-11" value="Article class" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="iNumXWC2fUviBrnDW_yb-9">
           <mxGeometry x="20" y="120" width="1045" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iNumXWC2fUviBrnDW_yb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iNumXWC2fUviBrnDW_yb-11" source="iNumXWC2fUviBrnDW_yb-18" target="iNumXWC2fUviBrnDW_yb-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNumXWC2fUviBrnDW_yb-18" value="New news API &lt;br&gt;is created &lt;br&gt;and stored" style="shape=dataStorage;html=1;fixedSize=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="iNumXWC2fUviBrnDW_yb-11">
+          <mxGeometry x="170" y="20" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-12" value="API class" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="iNumXWC2fUviBrnDW_yb-9">
           <mxGeometry x="20" y="240" width="1045" height="120" as="geometry" />
@@ -37,6 +46,9 @@
           <mxGeometry x="30" y="10" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iNumXWC2fUviBrnDW_yb-9" source="iNumXWC2fUviBrnDW_yb-5" target="iNumXWC2fUviBrnDW_yb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNumXWC2fUviBrnDW_yb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iNumXWC2fUviBrnDW_yb-9" source="iNumXWC2fUviBrnDW_yb-18" target="iNumXWC2fUviBrnDW_yb-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
