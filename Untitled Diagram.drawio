@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-20T04:37:37.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="85MGJV3nGULZtHPGMs2o" version="13.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-20T04:39:01.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="vmQH0Wl1KX7ZbDWrPasr" version="13.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1159" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -33,6 +33,9 @@
         <mxCell id="iNumXWC2fUviBrnDW_yb-25" value="User input from options" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;align=center;" vertex="1" parent="iNumXWC2fUviBrnDW_yb-10">
           <mxGeometry x="340" y="10" width="100" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="iNumXWC2fUviBrnDW_yb-29" value="Open the article url in a new window" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;align=center;" vertex="1" parent="iNumXWC2fUviBrnDW_yb-10">
+          <mxGeometry x="473" y="20" width="147" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-11" value="Article class" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="iNumXWC2fUviBrnDW_yb-9">
           <mxGeometry x="20" y="120" width="1045" height="120" as="geometry" />
         </mxCell>
@@ -61,6 +64,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.41;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iNumXWC2fUviBrnDW_yb-9" source="iNumXWC2fUviBrnDW_yb-25" target="iNumXWC2fUviBrnDW_yb-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNumXWC2fUviBrnDW_yb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iNumXWC2fUviBrnDW_yb-9" source="iNumXWC2fUviBrnDW_yb-27" target="iNumXWC2fUviBrnDW_yb-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iNumXWC2fUviBrnDW_yb-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iNumXWC2fUviBrnDW_yb-22" target="iNumXWC2fUviBrnDW_yb-25">
